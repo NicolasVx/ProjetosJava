@@ -17,6 +17,7 @@ public class TesteProduto {
 			if(op.equals("2")) listar();
 			
 		}while(!op.equals("4"));
+		sc.close();
 	}
 	private static void cadastrar() {
 		Produto p = new Produto();
@@ -33,6 +34,8 @@ public class TesteProduto {
 		produtos[i] = new Produto();
 		produtos[i] = p;
 		i++;
+		
+	sc.close();
 	}
 	public static void listar() {
 		for (int x = 0; x < i; x++) {
